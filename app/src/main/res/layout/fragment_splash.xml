@@ -3,43 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_gravity="center"
     tools:context=".fragments.SplashFragment">
 
-
-   <LinearLayout
-       android:layout_width="300dp"
-       android:layout_height="wrap_content"
-       android:layout_gravity="center"
-       android:orientation="vertical"
-       android:background="@drawable/icon_back"
-       >
-       <TextView
-           android:layout_width="wrap_content"
-           android:layout_height="match_parent"
-           android:text="Do"
-           android:textColor="@color/black"
-           android:textStyle="italic|bold"
-           android:layout_gravity="center"
-           android:textSize="100dp"
-           android:layout_marginBottom="-65dp"/>
-       <TextView
-           android:layout_width="wrap_content"
-           android:layout_height="match_parent"
-           android:text="It"
-           android:textColor="@color/white"
-           android:textStyle="italic|bold"
-           android:layout_gravity="center"
-           android:textSize="80dp"/>
-       <TextView
-           android:layout_width="wrap_content"
-           android:layout_height="match_parent"
-           android:text="Now"
-           android:textColor="@color/black"
-           android:textStyle="italic|bold"
-           android:layout_gravity="center"
-           android:textSize="100dp"
-           android:layout_marginTop="-65dp"/>
-   </LinearLayout>
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />
 
 </FrameLayout>
